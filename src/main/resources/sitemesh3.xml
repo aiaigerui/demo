@@ -1,0 +1,7 @@
+<sitemesh>
+    <mapping path="/*" decorator = "/WEB-INF/layouts/default.jsp"/>
+    <mapping path="/assets/*" exclue="true"/>
+    <mapping path="/login" exclue="true"/>
+    <!--<mapping path="/overview" exclue="true"></mapping>-->
+    <!--<mapping path="/material" exclue="true"/>-->
+</sitemesh>

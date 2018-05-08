@@ -1,0 +1,114 @@
+[INFO ] 2018-01-03 11:50:43.579 [main] ContextLoader - Root WebApplicationContext: initialization started
+[INFO ] 2018-01-03 11:50:43.829 [main] XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Jan 03 11:50:43 CST 2018]; root of context hierarchy
+[INFO ] 2018-01-03 11:50:43.954 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/applicationContext.xml]
+[INFO ] 2018-01-03 11:50:44.672 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/security/applicationContext-shiro.xml]
+[INFO ] 2018-01-03 11:50:45.407 [main] AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2018-01-03 11:50:46.891 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsMatcher' of type [org.apache.shiro.authc.credential.Md5CredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:50:47.094 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:50:47.125 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jdbcRealm' of type [org.apache.shiro.realm.jdbc.JdbcRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:50:47.157 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:50:47.532 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:50:47.532 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:50:47.532 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[WARN ] 2018-01-03 11:50:48.485 [main] HikariConfig - kfPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[INFO ] 2018-01-03 11:50:48.485 [main] HikariDataSource - kfPool - Starting...
+[INFO ] 2018-01-03 11:50:52.188 [main] HikariDataSource - kfPool - Start completed.
+[INFO ] 2018-01-03 11:50:52.672 [main] ContextLoader - Root WebApplicationContext: initialization completed in 9062 ms
+[INFO ] 2018-01-03 11:50:53.407 [main] DispatcherServlet - FrameworkServlet 'springServlet': initialization started
+[INFO ] 2018-01-03 11:50:53.422 [main] XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 11:50:53 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 11:50:53.422 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/spring-mvc.xml]
+[INFO ] 2018-01-03 11:50:54.125 [main] AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2018-01-03 11:50:54.954 [main] RequestMappingHandlerMapping - Mapped "{[/demo/login],methods=[GET]}" onto public java.lang.String com.effort.demo.web.LoginController.login()
+[INFO ] 2018-01-03 11:50:54.954 [main] RequestMappingHandlerMapping - Mapped "{[/demo/login],methods=[POST]}" onto public java.lang.String com.effort.demo.web.LoginController.doLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[INFO ] 2018-01-03 11:50:55.204 [main] Version - HV000001: Hibernate Validator 6.0.5.Final
+[INFO ] 2018-01-03 11:50:55.985 [main] ValidatorFactoryImpl - HV000238: Temporal validation tolerance set to 0.
+[INFO ] 2018-01-03 11:50:58.235 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 11:50:53 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 11:51:02.641 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 11:50:53 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 11:51:04.016 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO ] 2018-01-03 11:51:04.204 [main] SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO ] 2018-01-03 11:51:04.422 [main] DispatcherServlet - FrameworkServlet 'springServlet': initialization completed in 11015 ms
+[INFO ] 2018-01-03 11:52:55.776 [main] ContextLoader - Root WebApplicationContext: initialization started
+[INFO ] 2018-01-03 11:52:56.073 [main] XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Jan 03 11:52:56 CST 2018]; root of context hierarchy
+[INFO ] 2018-01-03 11:52:56.245 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/applicationContext.xml]
+[INFO ] 2018-01-03 11:52:56.979 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/security/applicationContext-shiro.xml]
+[INFO ] 2018-01-03 11:52:57.761 [main] AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2018-01-03 11:52:58.948 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsMatcher' of type [org.apache.shiro.authc.credential.Md5CredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:52:59.198 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:52:59.214 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jdbcRealm' of type [org.apache.shiro.realm.jdbc.JdbcRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:52:59.261 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:52:59.557 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:52:59.573 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 11:52:59.573 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[WARN ] 2018-01-03 11:53:00.495 [main] HikariConfig - kfPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[INFO ] 2018-01-03 11:53:00.511 [main] HikariDataSource - kfPool - Starting...
+[INFO ] 2018-01-03 11:53:01.714 [main] HikariDataSource - kfPool - Start completed.
+[INFO ] 2018-01-03 11:53:02.198 [main] ContextLoader - Root WebApplicationContext: initialization completed in 6391 ms
+[INFO ] 2018-01-03 11:53:02.839 [main] DispatcherServlet - FrameworkServlet 'springServlet': initialization started
+[INFO ] 2018-01-03 11:53:02.839 [main] XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 11:53:02 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 11:53:02.839 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/spring-mvc.xml]
+[INFO ] 2018-01-03 11:53:03.245 [main] AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2018-01-03 11:53:04.198 [main] RequestMappingHandlerMapping - Mapped "{[/demo/login],methods=[GET]}" onto public java.lang.String com.effort.demo.web.LoginController.login()
+[INFO ] 2018-01-03 11:53:04.214 [main] RequestMappingHandlerMapping - Mapped "{[/demo/login],methods=[POST]}" onto public java.lang.String com.effort.demo.web.LoginController.doLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[INFO ] 2018-01-03 11:53:04.495 [main] Version - HV000001: Hibernate Validator 6.0.5.Final
+[INFO ] 2018-01-03 11:53:05.448 [main] ValidatorFactoryImpl - HV000238: Temporal validation tolerance set to 0.
+[INFO ] 2018-01-03 11:53:07.167 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 11:53:02 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 11:53:07.745 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 11:53:02 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 11:53:08.761 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO ] 2018-01-03 11:53:08.932 [main] SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO ] 2018-01-03 11:53:09.182 [main] DispatcherServlet - FrameworkServlet 'springServlet': initialization completed in 6343 ms
+[INFO ] 2018-01-03 14:58:37.266 [main] ContextLoader - Root WebApplicationContext: initialization started
+[INFO ] 2018-01-03 14:58:37.531 [main] XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Jan 03 14:58:37 CST 2018]; root of context hierarchy
+[INFO ] 2018-01-03 14:58:37.766 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/applicationContext.xml]
+[INFO ] 2018-01-03 14:58:38.575 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/security/applicationContext-shiro.xml]
+[INFO ] 2018-01-03 14:58:39.366 [main] AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2018-01-03 14:58:40.569 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsMatcher' of type [org.apache.shiro.authc.credential.Md5CredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 14:58:40.757 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 14:58:40.788 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jdbcRealm' of type [org.apache.shiro.realm.jdbc.JdbcRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 14:58:40.803 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 14:58:40.975 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 14:58:40.975 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 14:58:40.975 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[WARN ] 2018-01-03 14:58:41.944 [main] HikariConfig - kfPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[INFO ] 2018-01-03 14:58:41.944 [main] HikariDataSource - kfPool - Starting...
+[INFO ] 2018-01-03 14:58:43.053 [main] HikariDataSource - kfPool - Start completed.
+[INFO ] 2018-01-03 14:58:43.694 [main] ContextLoader - Root WebApplicationContext: initialization completed in 6382 ms
+[INFO ] 2018-01-03 14:58:44.682 [main] DispatcherServlet - FrameworkServlet 'springServlet': initialization started
+[INFO ] 2018-01-03 14:58:44.682 [main] XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 14:58:44 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 14:58:44.682 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/spring-mvc.xml]
+[INFO ] 2018-01-03 14:58:45.276 [main] AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2018-01-03 14:58:46.088 [main] RequestMappingHandlerMapping - Mapped "{[/demo/login],methods=[POST]}" onto public java.lang.String com.effort.demo.web.LoginController.doLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[INFO ] 2018-01-03 14:58:46.104 [main] RequestMappingHandlerMapping - Mapped "{[/demo/login],methods=[GET]}" onto public java.lang.String com.effort.demo.web.LoginController.login()
+[INFO ] 2018-01-03 14:58:46.370 [main] Version - HV000001: Hibernate Validator 6.0.5.Final
+[INFO ] 2018-01-03 14:58:47.073 [main] ValidatorFactoryImpl - HV000238: Temporal validation tolerance set to 0.
+[INFO ] 2018-01-03 14:58:49.027 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 14:58:44 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 14:58:50.527 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 14:58:44 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 14:58:52.230 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO ] 2018-01-03 14:58:52.464 [main] DispatcherServlet - FrameworkServlet 'springServlet': initialization completed in 7782 ms
+[INFO ] 2018-01-03 17:48:39.625 [main] ContextLoader - Root WebApplicationContext: initialization started
+[INFO ] 2018-01-03 17:48:39.835 [main] XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Jan 03 17:48:39 CST 2018]; root of context hierarchy
+[INFO ] 2018-01-03 17:48:40.377 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/applicationContext.xml]
+[INFO ] 2018-01-03 17:48:41.856 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/security/applicationContext-shiro.xml]
+[INFO ] 2018-01-03 17:48:42.678 [main] AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2018-01-03 17:48:44.541 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsMatcher' of type [org.apache.shiro.authc.credential.Md5CredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 17:48:44.729 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 17:48:44.760 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jdbcRealm' of type [org.apache.shiro.realm.jdbc.JdbcRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 17:48:44.854 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 17:48:45.385 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 17:48:45.385 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2018-01-03 17:48:45.401 [main] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[WARN ] 2018-01-03 17:48:46.838 [main] HikariConfig - kfPool - idleTimeout is close to or more than maxLifetime, disabling it.
+[INFO ] 2018-01-03 17:48:46.838 [main] HikariDataSource - kfPool - Starting...
+[INFO ] 2018-01-03 17:48:48.517 [main] HikariDataSource - kfPool - Start completed.
+[INFO ] 2018-01-03 17:48:49.616 [main] ContextLoader - Root WebApplicationContext: initialization completed in 9971 ms
+[INFO ] 2018-01-03 17:48:50.869 [main] DispatcherServlet - FrameworkServlet 'springServlet': initialization started
+[INFO ] 2018-01-03 17:48:50.885 [main] XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 17:48:50 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 17:48:50.885 [main] XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/C:/Users/E-LINTER-002/IdeaProjects/demo/target/classes/spring-mvc.xml]
+[INFO ] 2018-01-03 17:48:51.474 [main] AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2018-01-03 17:48:54.023 [main] RequestMappingHandlerMapping - Mapped "{[/demo/login],methods=[GET]}" onto public java.lang.String com.effort.demo.web.LoginController.login()
+[INFO ] 2018-01-03 17:48:54.090 [main] RequestMappingHandlerMapping - Mapped "{[/demo/login],methods=[POST]}" onto public java.lang.String com.effort.demo.web.LoginController.doLogin(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[INFO ] 2018-01-03 17:48:54.933 [main] Version - HV000001: Hibernate Validator 6.0.5.Final
+[INFO ] 2018-01-03 17:48:56.251 [main] ValidatorFactoryImpl - HV000238: Temporal validation tolerance set to 0.
+[INFO ] 2018-01-03 17:48:58.185 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 17:48:50 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 17:48:59.811 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Wed Jan 03 17:48:50 CST 2018]; parent: Root WebApplicationContext
+[INFO ] 2018-01-03 17:49:01.639 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO ] 2018-01-03 17:49:02.394 [main] DispatcherServlet - FrameworkServlet 'springServlet': initialization completed in 11525 ms

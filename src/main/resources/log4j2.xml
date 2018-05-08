@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+    <Properties>
+        <Property name="log-path">D:/log/</Property>
+        <property name="FILE_NAME">demo</property>
+    </Properties>
+
+    <Appenders>
+        <RollingFile name="INFO_WARN" fileName="${log-path}/${FILE_NAME}.log"
+                     filePattern="${log-path}/$${date:yyyy-MM}/${FILE_NAME}-%d{yyyy-MM-dd}-%i.log">
+
+            <Filters>
+
+                <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+
+            <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>
+
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="20 MB"/>
+            </Policies>
+        </RollingFile>
+
+        <File name="ERROR" fileName="${log-path}/error.log">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>
+        </File>
+
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>
+        </Console>
+
+
+    </Appenders>
+    <Loggers>
+        <Logger name="com.effort.demo" level="INFO">
+            <AppenderRef ref="INFO_WARN"/>
+        </Logger>
+
+        <!--log4jdbc -->
+        <logger name="jdbc.sqltiming" level="INFO"/>
+
+        <Root level="error">
+            <appender-ref ref="console"/>
+            <appender-ref ref="INFO_WARN"/>
+            <appender-ref ref="ERROR"/>
+        </Root>
+    </Loggers>
+</Configuration>
