@@ -186,7 +186,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
-            <version>1.0.28</version>
+            <version>1.1.8</version>
         </dependency>
 
         <!-- jetty -->
@@ -226,11 +226,11 @@
         </dependency>
 
         <!-- slf4j -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -438,6 +438,12 @@
             <groupId>org.daverog</groupId>
             <artifactId>json-ld-tree</artifactId>
             <version>1.0.7</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-log4j12</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>

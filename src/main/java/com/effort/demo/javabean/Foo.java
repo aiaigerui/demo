@@ -1,4 +1,4 @@
-package com.effort.demo.model;
+package com.effort.demo.javabean;
 
 import javax.validation.constraints.Size;
 

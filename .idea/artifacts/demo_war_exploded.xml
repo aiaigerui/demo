@@ -14,6 +14,7 @@
           <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.5.2" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.19.0-GA" />
           <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.6" />
           <element id="library" level="project" name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2" />
           <element id="library" level="project" name="Maven: com.carrotsearch:java-sizeof:0.0.4" />
           <element id="library" level="project" name="Maven: org.codehaus.janino:janino:2.7.5" />
@@ -44,7 +45,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.sitemesh:sitemesh:3.0.1" />
           <element id="library" level="project" name="Maven: com.elinter:elinter-core:1.1.0" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
@@ -56,7 +57,7 @@
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
           <element id="library" level="project" name="Maven: com.baomidou:mybatis-plus-generate:2.1.6" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.43" />
-          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.28" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.8" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.4.7.v20170914" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.4.0" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.4.0" />
@@ -72,7 +73,6 @@
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-cache:1.4.0" />
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.6.11" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.9" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.10.0" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.10.0" />
@@ -128,7 +128,6 @@
           <element id="library" level="project" name="Maven: com.hp.hpl.jena:iri:0.8" />
           <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:3.4.4" />
           <element id="library" level="project" name="Maven: xerces:xercesImpl:2.7.1" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.5.8" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.13" />
           <element id="library" level="project" name="Maven: com.hp.hpl.jena:arq:2.8.8" />
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.9" />

@@ -1,7 +1,7 @@
 package com.effort.demo.web;
 
 
-import com.effort.demo.model.Bar;
+import com.effort.demo.javabean.Bar;
 import com.effort.demo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,7 +14,6 @@ import javax.validation.constraints.Size;
 
 
 @RestController
-@SuppressWarnings("UnusedDeclaration")
 @Validated
 public class IndexController {
 
@@ -28,10 +27,9 @@ public class IndexController {
     public String showIndex(@Min(value = 3, message = "最少3位")
                             @RequestParam int a) {
         //return message;
-        return bar.validString("1231111111");
+        return bar.validString("123");
     }
 
-    @ResponseBody
     @RequestMapping(value = "validObject", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.OK)
     public User validObject(
@@ -40,7 +38,6 @@ public class IndexController {
         return user;
     }
 
-    @ResponseBody
     @RequestMapping(value = "validString", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.OK)
     public String validString(

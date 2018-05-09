@@ -1,4 +1,4 @@
-package com.effort.demo.model;
+package com.effort.demo.javabean;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
