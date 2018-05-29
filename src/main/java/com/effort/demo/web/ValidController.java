@@ -15,14 +15,14 @@ import javax.validation.constraints.Size;
 
 @RestController
 @Validated
-public class IndexController {
+public class ValidController {
 
     @Autowired
     Bar bar;
     @Value("${example.message}")
     private String message;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/validString", method = RequestMethod.GET)
     @ResponseBody
     public String showIndex(@Min(value = 3, message = "最少3位")
                             @RequestParam int a) {

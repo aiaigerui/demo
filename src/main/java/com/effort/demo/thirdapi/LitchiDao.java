@@ -7,7 +7,7 @@ import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
-public interface LitchiApi {
+public interface LitchiDao {
 
     @POST("station/{stationId}")
     Call<Object> update(@Path("stationId") Long stationId,

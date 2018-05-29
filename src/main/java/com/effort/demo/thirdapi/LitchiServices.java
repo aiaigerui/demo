@@ -8,14 +8,14 @@ import retrofit2.Call;
 
 import java.io.IOException;
 
-public class ApiServices {
+public class LitchiServices {
 
     public static final String host = "http://localhost:8082/api/v2/";
 
-    private static LitchiApi litchiApi;
+    private static LitchiDao litchiDao;
 
     static {
-        litchiApi = RetrofitUtil.createApiService(LitchiApi.class, host);
+        litchiDao = RetrofitUtil.createApiService(LitchiDao.class, host);
     }
 
     public static Object updateStation(JSONObject json) throws IOException {
@@ -23,7 +23,7 @@ public class ApiServices {
         System.out.println(json);
         RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),
                 json.toString());
-        Call<Object> call = litchiApi.update(18L, 311L, requestBody);
+        Call<Object> call = litchiDao.update(18L, 311L, requestBody);
 
         call.execute();
         return "";

@@ -362,21 +362,27 @@
             <artifactId>xxl-job-core</artifactId>
             <version>1.9.0</version>
         </dependency>
-
         <!-- JMS end -->
-        <!-- Swagger -->
+
+        <!-- Swagger start -->
         <dependency>
-            <groupId>com.mangofactory</groupId>
-            <artifactId>swagger-springmvc</artifactId>
-            <version>0.9.5</version>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <!-- Swagger end -->
 
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
             <version>${jackson.version}</version>
         </dependency>
-        <!-- Swagger -->
 
         <!-- sharding-jdbc start -->
         <dependency>
@@ -428,12 +434,14 @@
             <artifactId>javax.el</artifactId>
             <version>2.2.4</version>
         </dependency>
+
         <dependency>
             <groupId>org.mortbay.jasper</groupId>
             <artifactId>apache-el</artifactId>
             <version>8.5.24.2</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.daverog</groupId>
             <artifactId>json-ld-tree</artifactId>
@@ -461,6 +469,14 @@
             <artifactId>retrofit</artifactId>
             <version>2.3.0</version>
         </dependency>
+
+        <!-- oauth2  start -->
+        <dependency>
+            <groupId>org.apache.oltu.oauth2</groupId>
+            <artifactId>org.apache.oltu.oauth2.client</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <!-- oauth2  end -->
 
     </dependencies>
     <build>

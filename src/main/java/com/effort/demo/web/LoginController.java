@@ -9,7 +9,6 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import redis.clients.jedis.Jedis;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -22,7 +21,7 @@ public class LoginController {
     public String login() {
         User user = (User) SecurityUtils.getSubject().getPrincipal();
         if (!StringUtils.isEmpty(user)) {
-            return "manager/list";
+            return "redirect:manager/list";
         }
         return "login";
     }

@@ -45,6 +45,10 @@
     <!-- 容器默认的DefaultServletHandler处理 所有静态内容与无RequestMapping处理的URL-->
     <mvc:default-servlet-handler/>
 
+    <mvc:view-controller path="/" view-name="redirect:/manager/list"/>
+
+    <mvc:resources mapping="/webjars/" location="classpath:/META-INF/resources/"/>
+
     <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
           depends-on="lifecycleBeanPostProcessor">
         <property name="proxyTargetClass" value="true"/>
@@ -53,7 +57,5 @@
     <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
         <property name="securityManager" ref="securityManager"/>
     </bean>
-
-    <bean class="com.effort.demo.util.SwaggerConfig"/>
 
 </beans>
