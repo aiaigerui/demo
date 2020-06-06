@@ -20,6 +20,6 @@ public class Producer {
 
     @PostMapping("sendEnergy")
     public void sendEnergy(@RequestBody Bar bar) {
-        template.send(KafkaConfig.ENERGY_TOPIC, bar);
+        template.send(KafkaConfig.WORK_DATA_TOPIC, bar);
     }
 }

@@ -12,7 +12,7 @@ public class Consumer {
         System.out.println(bar.getBrand());
     }
 
-    @KafkaListener(id = KafkaConfig.ENERGY_TOPIC_GROUP, topics = {KafkaConfig.ENERGY_TOPIC})
+    @KafkaListener(id = KafkaConfig.WORK_DATA_TOPIC_GROUP, topics = {KafkaConfig.WORK_DATA_TOPIC})
     public void receiveEnergy(Bar bar) {
         System.out.println(bar.getBrand());
     }

@@ -16,17 +16,17 @@ public class KafkaConfig {
     public static final String EVENT_TOPIC_GROUP = "eventGroup";
     public static final String EVENT_TOPIC = "event";
 
-    public static final String ENERGY_TOPIC_GROUP = "energyGroup";
-    public static final String ENERGY_TOPIC = "energy";
+    public static final String WORK_DATA_TOPIC_GROUP = "energyGroup";
+    public static final String WORK_DATA_TOPIC = "energy";
 
     @Bean
     public NewTopic event() {
-        return new NewTopic(EVENT_TOPIC, 2, (short) 2);
+        return new NewTopic(EVENT_TOPIC, 2, (short) 1);
     }
 
     @Bean
     public NewTopic energy() {
-        return new NewTopic(ENERGY_TOPIC, 2, (short) 2);
+        return new NewTopic(WORK_DATA_TOPIC, 2, (short) 1);
     }
 
     @Bean
