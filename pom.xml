@@ -18,7 +18,7 @@
         <sitemesh.version>3.0.1</sitemesh.version>
         <guava.version>23.5-jre</guava.version>
         <orika.version>1.5.2</orika.version>
-        <hibernate-validator.version>6.0.5.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.0.20.Final</hibernate-validator.version>
         <poi.version>3.17</poi.version>
 
         <jetty.version>9.4.7.v20170914</jetty.version>
